@@ -1,0 +1,5 @@
+// @ts-disable-next-line
+{
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base"
+}
