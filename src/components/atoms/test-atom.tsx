@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
-export default function HomePage() {
+export default function TestAtom() {
   return (
     <View>
-      <Text>Home Page</Text>
+      <Text>Atom</Text>
     </View>
   );
 }

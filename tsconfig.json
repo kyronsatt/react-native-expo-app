@@ -1,5 +1,41 @@
 // @ts-disable-next-line
 {
-  "compilerOptions": {},
-  "extends": "expo/tsconfig.base"
+  "compilerOptions": {
+    "paths": {
+      "_pages/*": [
+        "./src/pages/*"
+      ],
+      "_router/*": [
+        "./src/router/*"
+      ],
+      "_assets/*": [
+        "./src/assets/*"
+      ],
+      "_services/*": [
+        "./src/services/*"
+      ],
+      "_components/*": [
+        "./src/components/*"
+      ],
+      "_atoms/*": [
+        "./src/components/atoms/*"
+      ],
+      "_molecules/*": [
+        "./src/components/molecules/*"
+      ],
+      "_organisms/*": [
+        "./src/components/organisms/*"
+      ],
+      "_contexts/*": [
+        "./src/contexts/*"
+      ],
+      "_hooks/*": [
+        "./src/hooks/*"
+      ],
+      "_utils/*": [
+        "./src/utils/*"
+      ],
+    }
+  },
+  "extends": "expo/tsconfig.base", 
 }

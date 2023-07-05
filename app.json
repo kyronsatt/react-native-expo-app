@@ -1,10 +1,28 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
-    },
     "name": "react-native-expo-app",
-    "slug": "react-native-expo-app"
+    "slug": "react-native-expo-app",
+    "scheme": "react-native-expo-app",
+    "web": {
+      "bundler": "metro",
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rafaelalexandrino.react-native-expo-app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
   }
 }
