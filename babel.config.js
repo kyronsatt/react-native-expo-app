@@ -1,4 +1,4 @@
-process.env.EXPO_ROUTER_pages_ROOT = '../../src/pages';
+process.env.EXPO_ROUTER_APP_ROOT = '../../src/pages';
 
 module.exports = function (api) {
   api.cache(true);
